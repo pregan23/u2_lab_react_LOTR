@@ -5,9 +5,9 @@ const Movie = (movie) => {
     return (
         <div>
             <img src = {movie.poster}/>
-            <h1>Lord of the Rings:{movie.title} </h1>
-            <p>Runtime: {movie.hours} hrs, {movie.minutes} minutes </p>
-
+            <h1>Lord of the Rings: {movie.title} </h1>
+            <p>{movie.year} Runtime: {movie.hours} hrs, {movie.minutes} minutes </p>
+            
         </div>
     ) 
 };

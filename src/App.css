@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+  
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #294934;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
@@ -15,4 +16,13 @@
 
 img {
   height: 200px;
+  border: solid goldenrod 5px;
+  border-radius: 10%;
+  margin-top: 50px;
 }
+
+p {
+  border-bottom: goldenrod 1px solid;
+  padding: 0 0 10px 0;
+}
+
